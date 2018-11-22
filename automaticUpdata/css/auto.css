@@ -1,0 +1,65 @@
+._aup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 9999999;
+}
+
+._aup_box {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 360px;
+	height: 300px;
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 1px 15px #333;
+	-webkit-box-shadow: 0 1px 15px #333;
+}
+
+._aup_box input,
+._aup_box textarea {
+	outline: none !important;
+	border-radius: 5px !important;
+	border: 1px solid #ccc !important;
+	margin-bottom: 15px !important;
+	width: 100% !important;
+}
+
+._aup_box #_api {
+	height: 35px !important;
+	font-size: 16px !important;
+	color: #333 !important;
+	text-indent: 16px;
+	box-shadow: inset 1px 1px 5px #ccc;
+	-webkit-box-shadow: inset 1px 1px 5px #ccc;
+}
+
+._aup_box #_json {
+	font-size: 14px;
+	color: #555;
+	line-height: 22px !important;
+	text-indent: 16px !important;
+	height: calc(100% - 90px);
+	height: -webkit-calc(100% - 90px);
+	resize: none;
+	overflow-y: auto;
+	box-shadow: inset 1px 1px 5px #ccc;
+	-webkit-box-shadow: inset 1px 1px 5px #ccc;
+}
+
+._aup_box #_send {
+	height: 30px !important;
+	font-size: 18px !important;
+	cursor: pointer;
+	background-color: #3385ff !important;
+	color: #fff !important;
+}
